@@ -5,11 +5,12 @@ import {
   MdLaptopChromebook,
   MdWifiTetheringError,
 } from "react-icons/md";
-import { PiTelevisionBold } from "react-icons/pi";
-import { VscTools } from "react-icons/vsc";
+
 import { GiLipstick } from "react-icons/gi";
-import { FaTshirt, FaCarAlt } from "react-icons/fa";
-import { CiApple, CiDumbbell } from "react-icons/ci";
+import { GiDelicatePerfume } from "react-icons/gi";
+import { MdWatch } from "react-icons/md";
+import { BsFillHandbagFill } from "react-icons/bs";
+import { FaGifts } from "react-icons/fa";
 
 export const Categories = [
   {
@@ -17,45 +18,26 @@ export const Categories = [
     icon: MdStorefront,
   },
   {
-    label: "Phone & Tablets",
-    icon: AiFillPhone,
+    label: "Perfumes",
+    icon: GiDelicatePerfume,
   },
   {
-    label: "TVs & Audio",
-    icon: PiTelevisionBold,
-  },
-  {
-    label: "Appliances",
-    icon: VscTools,
-  },
-  {
-    label: "Heath and Beuty",
+    label: "Skin Care",
     icon: GiLipstick,
   },
   {
-    label: "Home and Office",
-    icon: MdOutlineHomeWork,
+    label: "Watches",
+    icon: MdWatch,
   },
   {
-    label: "Fashion",
-    icon: FaTshirt,
+    label: "Hanbags",
+    icon: BsFillHandbagFill,
   },
   {
-    label: "Computing",
-    icon: MdLaptopChromebook,
+    label: "GiftSets",
+    icon: FaGifts,
   },
-  {
-    label: "SuperMarket",
-    icon: CiApple,
-  },
-  {
-    label: "Sporting",
-    icon: CiDumbbell,
-  },
-  {
-    label: "AutoMobile",
-    icon: FaCarAlt,
-  },
+
   {
     label: "Other",
     icon: MdWifiTetheringError,
